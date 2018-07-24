@@ -1,0 +1,19 @@
+{
+	"name": "PiCamBot",
+	"version": "1.0.0",
+	"description": "Small bot for tweeting from the PiCam",
+	"main": "index.js",
+	"author": "Andy Pi",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"node-raspistill": "^0.0.15",
+		"twit": "^2.2.11"
+	},
+	"devDependencies": {
+		"dotenv": "^6.0.0"
+	}
+}
